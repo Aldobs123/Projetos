@@ -17,7 +17,7 @@ body {
     justify-content: center;
 }
 
-.instagram-wrapper {
+.wrapper {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -25,21 +25,21 @@ body {
     height: 100vh;
 }
 
-.instagram-phone {
+.phone {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
 
-.instagram-phone img {
+.phone img {
     height: 50rem;
 }
 
-.instagram-entrar {
+.entrar {
     display: flex;
-    align-items: center; /* horizontal */
-    justify-content: space-around; /* vertical */
+    align-items: center; 
+    justify-content: space-around;
     flex-direction: column;
     width: 40%;
     min-height: 34rem;
@@ -60,19 +60,20 @@ body {
     min-height: 23rem;
 }
 
-.group2 {
-    display:flex;
+.group-input {
+    
+    /*display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;*/
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
+    width: 80%;
     padding: 1.3rem 0;
-    border: 1px solid lightgray;
+    border: none;
     min-height: 8rem;
 }
 
-.instagram-logo {
+.logo {
     height: 3rem;
 }
 
@@ -88,7 +89,7 @@ body {
     height: 6rem;
 }
 
-.instagram-login {
+.login {
     background-color: #0095f6;
     color: #ffffff;
     padding: 8px;
@@ -103,6 +104,7 @@ body {
     border-width: 0.01ch; 
     border-radius: 0.30ch;
     width: 100%;
+    margin-bottom: 5px;
 }
 
 .w3-light-blue{color:lightblue;
@@ -111,7 +113,7 @@ body {
 
 .w3-border{border:1px solid #ccc!important}
 
-.instagram-esqueceu {
+.esqueceu {
     color: #0095f6;
     margin-top: 1rem;
 }
@@ -159,7 +161,7 @@ body {
 
 
 @media (max-width: 1024px) {
-    .instagram-wrapper {
+    .wrapper {
         width: 90%;
     }
 }
@@ -169,15 +171,15 @@ body {
         background-color: #ffffff;
     }
 
-    .instagram-wrapper {
+    .wrapper {
         width: 90%;
     }
 
-    .instagram-phone {
+    .phone {
         display: none;
     }
 
-    .instagram-continue {
+    .continue {
         width: 100%;
     }
     
